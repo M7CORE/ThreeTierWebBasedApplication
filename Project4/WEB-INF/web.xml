@@ -1,0 +1,21 @@
+<web-app>
+	<display-name>
+        CNT 4714 Project 4
+	</display-name>
+	<description>
+        Maria Corella
+	</description>
+	<servlet>
+		<servlet-name>Project4</servlet-name>
+		<description>
+            JSP Servlet for project
+		</description>
+		<servlet-class>
+            Project4
+		</servlet-class>
+	</servlet>
+    <servlet-mapping>
+        <servlet-name>Project4</servlet-name>
+        <url-pattern>/Project4</url-pattern>
+   </servlet-mapping>
+</web-app>
